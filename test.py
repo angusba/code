@@ -34,3 +34,11 @@ print(p1.printtest)
 
 
 
+class Person: 
+    role = 'person' 
+    def walk(self): 
+        print("person is walking...")
+
+
+print(Person.role) 
+print(Person.walk) 
